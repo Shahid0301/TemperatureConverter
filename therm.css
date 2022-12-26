@@ -3,6 +3,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .main-container{
     padding: 20px;
@@ -62,20 +64,20 @@ input{
     #icon{
         font-size: 100px;
         left:27%;
-        bottom: 48%;
+        bottom: 57%;
     }
     .therm{
         padding: 10px;
         margin-left:10px;
         width: 70vw;
-        height: 90vh;
+        height: 80vh;
         
     }
     .main-container{
         padding: 20px;
-        margin-top: 20%;
+        margin-top: 7%;
         width: 80vw;
-        height: 93vh;
+        height: 83vh;
        
     }
     input{
@@ -93,7 +95,7 @@ input{
         font-size: 20px;
     }
     #fom{
-        font-size: 40px;
+        font-size: 30px;
     }
     #result{
         font-size: 30px;
