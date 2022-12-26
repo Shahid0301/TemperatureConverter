@@ -29,6 +29,7 @@ body{
     border: 2px white solid;
     border-radius: 5px;
     padding: 5px 50px;
+    color: white;
 }
 #result{
     font-size: larger;
@@ -42,7 +43,7 @@ text-align: center;
 input{
     margin: 10px;
     text-align: center;
-    width: 90px;
+    width: 85px;
 }
 .therm{
     /* background-color: #0A2647; */
@@ -86,7 +87,7 @@ input{
     }
     input{
         padding: 10px 0;
-        width: 150px;
+        width: 145px;
         font-size: 20px;
         text-align: center;
     }
