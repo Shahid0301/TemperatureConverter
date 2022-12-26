@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./therm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> -->
+    <title>Thermometer</title>
+    <script src="./therm.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="therm">
+            <h1>Temperature <br> Converter</h1>
+            <form onsubmit="convert(); return false" id="fom">
+                <label for="temp">Enter Temperature</label>
+                <br>
+                <input type="number" id="Ntemp" required>
+                <br>
+                <select name="fromTemp" id="fromtemp">
+                    <option value="cel">°Celcius</option>
+                    <option value="far">°Fahrenheit</option>
+                </select>
+                <br>
+                To
+                <br>
+                <select name="temp" id="temp">
+                    <option value="cel">°Celcius</option>
+                    <option value="far">°Fahrenheit</option>
+                </select>
+                <br>
+                <br>
+                <button type="submit" id="btn">Submit</button>
+            </form>
+            <br><br><br>
+            <span id="result"></span>
+        </div>
+        <div id="icon">
+            
+        </div>
+    </div>
+    
+    <script src="./therm.js"></script>
+</body>
+</html>
