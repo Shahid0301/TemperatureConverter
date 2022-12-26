@@ -2,12 +2,12 @@ function convert(){
     const tempNum=document.getElementById('Ntemp').value;
     const fromTemp=document.getElementById('fromtemp').value;
     const selectedTemp=document.getElementById('temp').value;
-    if(fromTemp==="far" && selectedTemp==="cel" ){
-        const calTemp=Math.round((tempNum*9/5)+32);
-        document.getElementById('result').innerHTML=`= ${calTemp} °Celcius`
-    }else if(fromTemp==="cel" && selectedTemp==="far"){
-        const calTemp=Math.round((tempNum-32)*5/9);
+    if(fromTemp==="cel" && selectedTemp==="far" ){
+        const calTemp=((tempNum*9/5)+32).toFixed(2);
         document.getElementById('result').innerHTML=`= ${calTemp} °Fahrenheit`
+    }else if(fromTemp==="far" && selectedTemp==="cel"){
+        const calTemp=((tempNum-32)*5/9).toFixed(2);
+        document.getElementById('result').innerHTML=`= ${calTemp} °Celcius`
     }
     else{
         var t="";
